@@ -1,52 +1,22 @@
-Alo Mundo Java com Docker
+Alo Mundo Docker
 
-Aplicação Alo Mundo desenvolvida em Java e executada em um container Docker.
+Projeto desenvolvido em Java com o objetivo de exibir a mensagem "Alo Mundo Docker" no console e demonstrar a execução de uma aplicação Java utilizando Docker.
 
 Sobre o projeto
-O projeto foi desenvolvido utilizando o NetBeans.
-Utiliza o Java para desenvolvimento da aplicação.
-Utiliza o Apache Maven para automatizar o processo de construção da aplicação.
-A aplicação é empacotada no formato JAR (Java ARchive).
-Utiliza o Docker para criar uma imagem e executar a aplicação em um container.
-A aplicação tem como objetivo exibir a mensagem "Alo Mundo Docker" no console.
-Comandos Docker
-Utilizar o terminal do Windows PowerShell em modo administrador.
-Construir a aplicação
-docker build -t alo_mundo_java_docker .
-Rodar a aplicação
-docker run --rm alo_mundo_java_docker
-Execução
 
-A saída da aplicação é apresentada no próprio terminal.
+O projeto possui uma classe principal chamada Principal, responsável por iniciar a aplicação e exibir a mensagem:
 
 Alo Mundo Docker
-Remover imagem
-docker rmi alo_mundo_java_docker
-Arquitetura do Sistema
 
-A aplicação é composta por uma classe principal responsável pela execução do programa.
+O projeto também utiliza Maven para gerenciamento e construção da aplicação e Docker para criação e execução do ambiente da aplicação.
 
-Aplicação Java
-      │
-      ▼
-    Maven
-      │
-      ▼
-  Arquivo JAR
-      │
-      ▼
-   Docker
-      │
-      ▼
-  Container
-      │
-      ▼
-   Console
-      │
-      ▼
-Alo Mundo Docker
+🛠️ Tecnologias utilizadas
+Java
+Maven
+Docker
+NetBeans
 Estrutura do projeto
-alo_mundo_java_docker/
+AloMundoDocker/
 ├── src/
 │   └── main/
 │       └── java/
@@ -57,5 +27,48 @@ alo_mundo_java_docker/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+▶️ Execução do projeto
+Executando com Java
+
+Compile e execute a classe Principal:
+
+javac Principal.java
+java Principal
+
+A saída esperada será:
+
+Alo Mundo Docker
+Executando com Maven
+
+Para compilar o projeto utilizando Maven:
+
+mvn clean package
+
+Depois, execute a aplicação conforme a configuração definida no projeto.
+
+Executando com Docker
+
+Para criar a imagem Docker:
+
+docker build -t alo-mundo-docker .
+
+Depois, execute o container:
+
+docker run --rm alo-mundo-docker
+
+A saída esperada será:
+
+Alo Mundo Docker
+
+Objetivo
+
+O objetivo deste projeto é praticar os conceitos básicos de:
+
+Desenvolvimento de uma aplicação Java;
+Organização de um projeto Maven;
+Criação de uma imagem Docker;
+Execução de uma aplicação Java em um container;
+Versionamento do projeto utilizando Git e GitHub.
+
 Docker Hub
 https://hub.docker.com/r/darthruver007/alomundo_java_docker
