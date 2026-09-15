@@ -10,12 +10,14 @@ Alo Mundo Docker
 
 O projeto também utiliza Maven para gerenciamento e construção da aplicação e Docker para criação e execução do ambiente da aplicação.
 
-🛠️ Tecnologias utilizadas
+Tecnologias utilizadas
 Java
 Maven
 Docker
 NetBeans
+
 Estrutura do projeto
+
 AloMundoDocker/
 ├── src/
 │   └── main/
@@ -27,7 +29,8 @@ AloMundoDocker/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-▶️ Execução do projeto
+
+Execução do projeto
 Executando com Java
 
 Compile e execute a classe Principal:
