@@ -1,98 +1,61 @@
-# Alô Mundo Docker
+Alo Mundo Java com Docker
 
-Projeto desenvolvido em Java com o objetivo de apresentar uma aplicação simples executada em um ambiente Docker.
-
-O programa exibe a mensagem "Alo Mundo Docker" no console.
+Aplicação Alo Mundo desenvolvida em Java e executada em um container Docker.
 
 Sobre o projeto
+O projeto foi desenvolvido utilizando o NetBeans.
+Utiliza Java para desenvolvimento da aplicação.
+Utiliza o Apache Maven para automatizar o processo de construção da aplicação.
+A aplicação é empacotada no formato JAR (Java ARchive).
+Utiliza o Docker para criar uma imagem e executar a aplicação em um container.
+A aplicação possui como objetivo exibir a mensagem "Alo Mundo Docker" no console.
+Comandos Docker
+Utilizar o terminal do Windows PowerShell em modo administrador.
+Construir a aplicação
+docker build -t alo_mundo_java_docker .
+Rodar a aplicação
+docker run --rm alo_mundo_java_docker
+Execução
 
-Este projeto faz parte dos estudos iniciais de Ciência da Computação, utilizando conceitos básicos da linguagem Java e introduzindo o uso de Docker para execução da aplicação.
+A saída da aplicação é apresentada no próprio terminal:
 
-O projeto também utiliza Maven para gerenciamento e configuração da aplicação.
+Alo Mundo Docker
+Remover imagem
+docker rmi alo_mundo_java_docker
+Arquitetura do Sistema
 
-Tecnologias utilizadas
-Java
-Docker
-Maven
-NetBeans
-Git
-GitHub
+A aplicação é composta por uma classe principal responsável pela execução do programa.
+
+Aplicação Java
+      │
+      ▼
+   Maven
+      │
+      ▼
+ Arquivo JAR
+      │
+      ▼
+   Docker
+      │
+      ▼
+   Container
+      │
+      ▼
+Console
+      │
+      ▼
+Alo Mundo Docker
 Estrutura do projeto
-Alô-Mundo-Docker/
-│
+alo_mundo_java_docker/
 ├── src/
 │   └── main/
 │       └── java/
 │           └── Principal.java
-│
 ├── Dockerfile
 ├── pom.xml
 ├── nbactions.xml
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
-Código
-
-A aplicação possui uma classe principal chamada Principal:
-
-public class Principal {
-
-    public static void main(String[] args) {
-        System.out.println("Alo Mundo Docker");
-    }
-}
-
-O comando System.out.println() é utilizado para exibir uma mensagem no console.
-
-Como executar
-Executando com Java
-
-Para executar o projeto utilizando Java, compile e execute a classe principal:
-
-javac Principal.java
-java Principal
-Resultado esperado
-Alo Mundo Docker
-Executando com Docker
-
-Para executar a aplicação utilizando Docker, primeiro é necessário criar a imagem do projeto.
-
-Criar a imagem
-
-Na pasta principal do projeto, execute:
-
-docker build -t alo-mundo-docker .
-Executar o container
-
-Depois de criar a imagem:
-
-docker run --rm alo-mundo-docker
-Resultado esperado
-Alo Mundo Docker
 Docker Hub
-
-A imagem do projeto também está disponível publicamente no Docker Hub.
-
-Projeto no Docker Hub:
 https://hub.docker.com/r/darthruver007/alomundo_java_docker
-
-Requisitos
-
-Para executar o projeto, é necessário ter instalado:
-
-JDK
-Maven
-Docker
-Git
-Licença
-
-Este projeto está disponível sob a licença definida no arquivo LICENSE deste repositório.
-
-Autor
-
-Douglas de Almeida Ruver
-
-Projeto desenvolvido para fins acadêmicos e de aprendizado em Ciência da Computação.
-
-Desenvolvido utilizado JDK 1.8 e NetBeans 13. 
