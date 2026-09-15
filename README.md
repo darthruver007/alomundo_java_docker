@@ -4,11 +4,11 @@ Aplicação Alo Mundo desenvolvida em Java e executada em um container Docker.
 
 Sobre o projeto
 O projeto foi desenvolvido utilizando o NetBeans.
-Utiliza Java para desenvolvimento da aplicação.
+Utiliza o Java para desenvolvimento da aplicação.
 Utiliza o Apache Maven para automatizar o processo de construção da aplicação.
 A aplicação é empacotada no formato JAR (Java ARchive).
 Utiliza o Docker para criar uma imagem e executar a aplicação em um container.
-A aplicação possui como objetivo exibir a mensagem "Alo Mundo Docker" no console.
+A aplicação tem como objetivo exibir a mensagem "Alo Mundo Docker" no console.
 Comandos Docker
 Utilizar o terminal do Windows PowerShell em modo administrador.
 Construir a aplicação
@@ -17,7 +17,7 @@ Rodar a aplicação
 docker run --rm alo_mundo_java_docker
 Execução
 
-A saída da aplicação é apresentada no próprio terminal:
+A saída da aplicação é apresentada no próprio terminal.
 
 Alo Mundo Docker
 Remover imagem
@@ -29,19 +29,19 @@ A aplicação é composta por uma classe principal responsável pela execução 
 Aplicação Java
       │
       ▼
-   Maven
+    Maven
       │
       ▼
- Arquivo JAR
+  Arquivo JAR
       │
       ▼
    Docker
       │
       ▼
-   Container
+  Container
       │
       ▼
-Console
+   Console
       │
       ▼
 Alo Mundo Docker
