@@ -15,12 +15,6 @@ Aplicação Alomundo desenvolvida em Java e executada em um container Docker.
 
 ---
 
-## Arquitetura do Sistema
-
-![Arquitetura](arquitetura.png)
-
----
-
 ## Tecnologias Utilizadas
 
 - Java 8
@@ -40,7 +34,6 @@ alomundo_java_docker/
 ├── Dockerfile
 ├── pom.xml
 ├── nbactions.xml
-├── arquitetura.png
 ├── .gitignore
 ├── LICENSE
 └── README.md
