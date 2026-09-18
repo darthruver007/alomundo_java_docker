@@ -38,6 +38,7 @@ alomundo_java_docker/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```text
 
 ---
 
