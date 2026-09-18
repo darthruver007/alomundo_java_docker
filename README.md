@@ -26,6 +26,7 @@ Aplicação Alomundo desenvolvida em Java e executada em um container Docker.
 
 ## Estrutura do Projeto
 
+```text
 alomundo_java_docker/
 ├── src/
 │   └── main/
