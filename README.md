@@ -1,4 +1,4 @@
-# Alomundo Java com Docker
+# alomundo_java_docker
 
 Aplicação Alomundo desenvolvida em Java e executada em um container Docker.
 
@@ -26,7 +26,7 @@ Aplicação Alomundo desenvolvida em Java e executada em um container Docker.
 
 ## Estrutura do Projeto
 
-```text
+<pre>
 alomundo_java_docker/
 ├── src/
 │   └── main/
@@ -38,7 +38,7 @@ alomundo_java_docker/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-```text
+</pre>
 
 ---
 
